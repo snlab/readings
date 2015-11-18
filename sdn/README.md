@@ -1,3 +1,5 @@
+A good tutorial on OpenDayligt: https://wiki.opendaylight.org/view/Controller_Core_Functionality_Tutorials:Application_Development_Tutorial
+
 It is can be a bit hard to get started to fully understand the AP processing at a network switch. One possibility is to consider each packet as a function call, with parameters in the packet headers. 
 
 You can start with L2 only. In this case, the packet will be an Ethernet Frame:
@@ -22,3 +24,4 @@ IPv4 and IPv6 are better known.
 
 * Another important technique is MPLS (https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching). See the proceeding link for MPLS format.
 
+I also suggested that you take a look at the Click paper. The IP router example (Sec. 3) is great to illustrate a quite complete L3 router. The idea of annotations is essentially meta data, proposed 14 years ago.
